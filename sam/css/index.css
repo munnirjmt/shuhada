@@ -1,0 +1,161 @@
+.div_parent{
+    padding: 10px;
+    width: 490px;
+    height: 184px;
+    position: relative;
+  margin-bottom: 20px;
+    float: left;
+
+}
+.pix_con{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+        border: 1px rgba(0,0,0,0.3) solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.div_info{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 1px rgba(0,0,0,0.3) solid;
+    border-radius: 10px;
+   padding: 5px;
+}
+.pix{
+    width: 100%;
+}
+#nav{
+    height: 150px;
+    background-color: green;
+    margin-bottom: 0px;
+}
+body{
+    margin: 0;
+}
+#body{
+    padding-left: 200px;
+}
+#pix_nav{
+    height: 100%;
+width: 100%;
+}
+#div_search{
+    border: solid 1px black;
+    padding: 10px;
+    width: 65%;
+    margin-bottom: 20px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 9px;
+}
+.info_child{
+    padding-left:  100px;
+}
+.names{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Constantia;
+}
+#txt_search{
+    padding: 10px;
+    width: 700px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pix_search{
+    position: absolute;
+    width: 40px;
+    margin-left: 5px;
+}
+#div_title{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial Black";
+    margin-bottom: 10px;
+}
+td{
+    padding: 1px;
+}
+.td_f{
+
+}
+@media only screen and (max-width: 768px) {
+    #nav{
+        width: 99%;
+    height: 120px;
+    background-color: green;
+    margin-bottom: 0px;
+}
+  #div_search{
+    border: solid 1px black;
+    padding: 10px;
+    width: 89%;
+    margin-bottom: 10px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 9px;
+}
+    #txt_search{
+    padding: 6px;
+    width: 85%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+    .div_parent{
+    padding: 10px;
+    width: 100%;
+    height: 184px;
+    position: relative;
+  margin-bottom: 10px;
+    float: left;
+
+}
+    .div_info{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-color: white;
+    width: 75%;
+    height: 120px;
+    border: 1px rgba(0,0,0,0.3) solid;
+    border-radius: 10px;
+   padding: 5px;
+}
+    #body{
+    padding-left: 10px;
+}
+    .pix_con{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+        border: 1px rgba(0,0,0,0.3) solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+    .names{
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Constantia;
+}
+}
